@@ -547,6 +547,9 @@ textarea {
 	margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
 	vertical-align: baseline; /* Improves appearance and consistency in all browsers */
 	*vertical-align: middle; /* Improves appearance and consistency in IE6/IE7 */
+	width: 274px;
+	text-align: left;
+	min-height: 30px;
 }
 button,
 input[type="button"],
@@ -567,6 +570,7 @@ input[type="submit"] {
 	white-space: nowrap;
 	font-size: 14px;
 	color: #FFF;
+	width: 274px;
 }
 button:hover,
 input[type="button"]:hover,
@@ -1597,6 +1601,8 @@ object {
 .navbar-inverse .navbar-brand .site-title > a {
 	color: #999;
 	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 .navbar-inverse .navbar-brand p.site-description,
 .navbar-inverse .navbar-brand .site-title {
@@ -3032,7 +3038,7 @@ width: -webkit-calc(100% / 4);
 	color: #FFF;
 }
 .contact-us .input-box,textarea {
-	width: 100%;
+	width: 274px;
 	margin: auto;
 	margin-bottom: 20px;
 	border-radius: 4px;
